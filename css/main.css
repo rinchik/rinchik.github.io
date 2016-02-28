@@ -1,0 +1,50 @@
+body {
+    background-color: black;
+    font-family: monostena, Consolas,monospace;
+    letter-spacing: .6px;
+    color: #008000;
+}
+
+a {
+    color: #008000;
+}
+
+#container {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    text-align: center;
+    font-size: 15px;
+}
+
+#top {
+    top: 10%;
+
+    position: relative;
+}
+
+#footer {
+    position: relative;
+    top: 80%;
+}
+
+#footer a {
+    margin-right: 10px;
+}
+
+#cursor {
+    animation: blink 1s steps(5, start) infinite;
+    -webkit-animation: blink 1s steps(5, start) infinite;
+    margin: 0;
+}
+
+@keyframes blink {
+    to {
+        visibility: hidden;
+    }
+}
+@-webkit-keyframes blink {
+    to {
+        visibility: hidden;
+    }
+}
