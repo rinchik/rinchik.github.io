@@ -17,7 +17,7 @@ $(document).ready(function() {
 });
 
 function testTypingEffect() {
-    caption = 'Yet another web developer :)';
+    caption = 'Stay tuned...';
     type();
 }
 
